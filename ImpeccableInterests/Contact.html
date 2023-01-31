@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<style>
+
+    
+.button1
+{
+ 
+  color: rgb(218, 0, 124);
+  
+}
+
+</style>
+
+
+<body>
+    <h1>
+
+        <a href="index.html">HOME</a>
+        <a href="About.html">ABOUT</a>
+        <a href="Blogs.html">BLOGS</a>
+        <a href="Contact.html">CONTACT</a>
+
+    </h1>
+
+    
+
+    <h2><img src="Images/contact banner.png" alt=""></h2>
+
+    <h6>
+        <!--
+    A form requires 2 attributes:
+    action: The URL it should send the info to
+-->
+        <form action="#" method="get">
+
+
+            <!--
+        For search engine readability, each input requires a label
+        A label can use the "for" attribute to specify what it is linked to
+    -->
+
+            <label for="lastName">Name:</label>
+            <!--
+        An input cat take many forms (based on the "type" attribute)
+        They all require a "name" to associate values
+        and an "id" to link with the label
+    -->
+            <br>
+            <input type="text" name="firstName" id="firstName">
+
+            <br><br>
+
+            <!-- We can also add an email field -->
+            <label for="lastName">Surname:</label>
+            <br>
+            <input type="text" name="lastName" id="lastName">
+
+            <br><br>
+
+            <!-- We can also add an email field -->
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email">
+
+            <br><br>
+
+            <!-- Passwords -->
+            <label for="password">Password:</label>
+            <br>
+            <input type="password">
+
+            <br>
+
+            <label for="starter"></label>
+
+            <br>
+
+            <!-- Dropdown lists can be added using the select tag -->
+            <legend>Please choose your interests:</legend>
+            <select name="starter-pokemon" id="starter-pokemon">
+                <option value="bulbasaur">Photos</option>
+                <option value="charmander">Travel</option>
+                <option value="squirtle">Gaming</option>
+            </select>
+
+            <br><br>
+
+            <!-- We can use fieldset to create a multiple choice question -->
+
+            <fieldset>
+                <legend>What Social Media platforms do you use?</legend>
+
+                <input type="checkbox" name="social-networks" id="instagram">
+                <label for="instagram">Instagram</label>
+                <br>
+
+                <input type="checkbox" name="social-networks" id="facebook">
+                <label for="facebook">Facebook</label>
+                <br>
+
+                <input type="checkbox" name="social-networks" id="twitter">
+                <label for="twitter">Twitter</label>
+                <br>
+
+                <input type="checkbox" name="social-networks" id="tiktok">
+                <label for="tiktok">Tiktok</label>
+
+            </fieldset>
+
+            <br>
+
+
+            <!-- We can also add radio buttons for single choice questions -->
+            <fieldset>
+                <legend>What content do you prefer?</legend>
+
+                <input type="radio" name="island" id="photography">
+                <label for="photography">Photography</label>
+                <br>
+
+                <input type="radio" name="island" id="travel">
+                <label for="travel">Travel</label>
+                <br>
+
+                <input type="radio" name="island" id="gaming">
+                <label for="gaming">Gaming</label>
+
+            </fieldset>
+            <fieldset>
+                <br>
+                <legend>Comment Here</legend>
+                <br>
+                <input type="text" name="island" size="137px">
+
+                <br>
+
+            </fieldset>
+
+            
+
+            <button type="button">Save</button>
+            <button type="reset">Some other time!!!</button>
+            <a style="color: #00ff15" href="mailto: meganbartolo13@gmail.com">Send me an Email :)</a>
+           
+            
+            
+
+        </form>
+    </h6>
+
+
+
+</body>
+
+
+
+
+
+
+</html>
+
+
+
